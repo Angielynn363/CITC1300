@@ -3,3 +3,7 @@
 <h1>Project List </h1>
 
 <a href="project1/index.html" target="_blank">Project 1</a>
+
+<ul>
+    <li><a href="widgets/index.html" target="_blank>widgets</a><li>
+</ul>
