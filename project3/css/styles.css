@@ -1,0 +1,146 @@
+body {
+    background-color: #40160C;
+    font-size: 18px;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+a:link {
+    color: #BF4226;
+}
+
+a:hover {
+    font-size: 20px;
+}
+
+/* Mobile Styles */
+
+#container {
+    background-color: #8C7F56;
+    margin: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+header {
+    padding: 60px;
+    border-bottom: 5px groove #BF4226;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Ultra', serif;
+    text-shadow: #BF4226 2px 2px 4px;
+}
+
+header img {
+    display: none;
+}
+
+.col {
+    border: 5px groove #BF4226;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.col h2 {
+    text-align: center;
+    font-size: 1.2em;
+    text-shadow: #BF4226 1px 1px 2px;
+    font-family: 'Ultra', serif;
+}
+
+.col img {
+    width: 50%;
+}
+
+.main_img {
+    display: none;
+}
+
+footer {
+    padding: 60px 0;
+    text-align: center;
+    border-top: 5px groove #BF4226;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Ultra', serif;
+}
+
+/* Tablet Style */
+
+@media(min-width: 768px) {
+    #container {
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    header {
+        border-bottom: 6px groove #BF4226;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    .col {
+        width: 75%;
+        margin: 20px auto;
+        border: 6px groove #BF4226;
+    }
+
+    .col h2 {
+        font-size: 1.8em;
+    }
+
+    .col img {
+        width: 30%;
+    }
+}
+
+@media(min-width: 1024px) {
+
+    #container {
+        width: 90%;
+        border-radius: 30px;
+    }
+
+    #flex {
+        display: flex;
+    }
+
+    header h1 {
+        font-size: 3.5em;
+    }
+
+
+    header img {
+        display: block;
+        width: 8%;
+    }
+
+    .col {
+        margin: 20px;
+        width: 200%;
+    }
+    
+    .col img {
+        width: 50%;
+    }
+
+    .col h2 {
+        font-size: 2.5em;
+    }
+
+    .main_img {
+        display: block;
+        width: 20%;
+        margin: 20px auto;
+    }
+}
