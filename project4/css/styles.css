@@ -1,7 +1,8 @@
 /* Global Styles */
 
 body {
-    background-color: #468C58;
+    background-color: #F2785C;
+    font-family: 'Assistant', sans-serif;
 }
 
 img {
@@ -14,24 +15,27 @@ img {
 /* Mobile Styles */
 
 #container {
-    background-color: #70BF4B;
+    background-color: #F25757;
     margin: 10px;
+    border: 4px groove #F2AE2E;
 }
 header {
-    background-image: url("../images/gcourse1.jpg");
+    background-image: url("../images/snoot.JPG");
     background-size: cover;
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 header h1 {
-    color: #F2CF8D;
+    color: #F25757;
     text-shadow: 2px 2px 2px #000;
     text-align: center;
+    font-size: 3em;
+    font-family: 'Abril Fatface', cursive;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 0px;
 }
 
 nav li {
@@ -40,37 +44,41 @@ nav li {
 
 nav li a {
     display: block;
-    background-color: #468C58;
-    color: #F2CF8D;
+    background-color: #F25757;
+    color: #F2AE2E;
     height: 40px;
     line-height: 40px;
     text-align: center;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin: 10px 0;
     border-radius: 10px;    
 }
 
 nav li a:hover {
-    background-color: #70BF4B;
+    background-color: #F2AE2E;
+    color: #F25757;
     text-shadow: 2px 2px 2px #000;
 }
 
 nav, section, aside, .col, footer {
-    background-color: #F2CF8D;
+    background-color: #d3d3d3;
     padding: 20px;
     margin: 10px;
-    border: 4px solid #468C58;
+    border: 4px groove #F2AE2E;
     border-radius: 10px;
 }
 
-.col {
-    
+h2 {
+    color: #F25757;
+    text-shadow: 2px 2px 2px #000;
+    font-style: 1.8em;
+    text-align: center;
 }
 
-h2, h3 {
-    color: #468C58;
-    text-shadow: 2px 2px 2px #000;
+h3 {
+    color: #F25757;
+    text-shadow: 1px 1px 1px #000;
     font-style: 1.5em;
     text-align: center;
 }
@@ -81,8 +89,8 @@ section img, aside img {
 
 .button {
     display: block;
-    background-color: #468C58;
-    color: #F2CF8D;
+    background-color: #F25757;
+    color: #F2AE2E;
     height: 40px;
     width: 200px;
     line-height: 40px;
@@ -94,13 +102,14 @@ section img, aside img {
 }
 
 .button:hover {
-    background-color: #70BF4B;
+    background-color: #F2AE2E;
+    color: #F25757;
     text-shadow: 2px 2px 2px #000;
 }
 
 footer {
     text-align: center;
-    color: #468C58;
+    color: #F25757;
 }
 
 .single_col {
@@ -119,7 +128,7 @@ iframe {
 }
 
 .gallery_img {
-    border: 4px solid #468C58;
+    border: 4px solid #F2AE2E;
     border-radius: 10px;
     margin: 10px auto;
 }
@@ -133,11 +142,11 @@ table {
 @media (min-width: 768px) {
 
     header {
-        padding: 125px;
+        padding: 100px;
     }
 
     header h1 {
-        font-size: 3em;
+        font-size: 5em;
     }
 
     nav {
@@ -161,6 +170,7 @@ table {
 
     section, aside {
         width: 50%;
+        max-width: 100%;
     }
 
     aside img {
@@ -170,7 +180,7 @@ table {
     .col img {
         width: 60%;
         border-radius: 10px;
-        border: 4px solid #468C58;
+        border: 4px solid #F2AE2E;
     }
 
     .single_col {
@@ -185,12 +195,13 @@ table {
     #container {
         width: 75%;
         margin: 20px auto;
-        border: 4px solid #F2CF8D;
-        border-radius: 20px;
+        border: 6px groove #F2AE2E;
+        border-radius: 30px;
     }
 
     header {
         border-radius: 20px 20px 0 0;
+        padding: 180px;
     }
 
     nav li a {
@@ -214,9 +225,11 @@ table {
     }
 
     table, tr, td {
-        border: 4px solid #468C58;
+        border: 4px solid #F25757;
         padding: 10px;
         margin: 10px;
+        background-color: #F2785C;
+        border-radius: 20px;
     }
 
     table img {
