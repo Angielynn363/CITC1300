@@ -72,14 +72,14 @@ nav, section, aside, .col, footer {
 h2 {
     color: #F25757;
     text-shadow: 2px 2px 2px #000;
-    font-style: 1.8em;
+    font-size: 2em;
     text-align: center;
 }
 
 h3 {
     color: #F25757;
     text-shadow: 1px 1px 1px #000;
-    font-style: 1.5em;
+    font-size: 1.5em;
     text-align: center;
 }
 
