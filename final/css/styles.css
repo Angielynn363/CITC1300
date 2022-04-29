@@ -54,7 +54,7 @@ nav li a {
     text-align: center;
     text-decoration: none;
     text-shadow: 2px 2px 2px black;
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin: 8px 0;
     border-radius: 10px;
 }
@@ -166,10 +166,6 @@ table {
         height: 50px;
         line-height: 50px;
         width: 300px;
-    }
-
-    header h2 {
-        font-size: 3em;
     }
 
     #upper_flex {
