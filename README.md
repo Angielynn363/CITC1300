@@ -10,4 +10,5 @@
     <li><a href="project3/index.html" target="_blank">Project 3</a></li>
     <li><a href="golf/index.html" target="_blank">Golf</a></li>
     <li><a href="project4/index.html" target="_blank">Project 4</a></li>
+    <li><a href="final/index.html" target="_blank">Final</a></li>
 </ul>
